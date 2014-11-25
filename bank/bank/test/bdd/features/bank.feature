@@ -7,3 +7,4 @@ Feature: Bank web application to retrieve
 
 Scenario: Retreive customer balance
 		Given I visit the homepage
+		When I enter the account number "1111"
