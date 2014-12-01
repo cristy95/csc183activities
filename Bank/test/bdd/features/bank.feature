@@ -10,7 +10,7 @@ Scenario: Retrieve customer balance
             | 1111           | 50      |
         And I visit the homepage
         When I enter the account number "1111"
-        Then I see a balance of "50"
+        Then I see a balance of "100"
 
 @mytag
 Scenario: Retrieve some other account
