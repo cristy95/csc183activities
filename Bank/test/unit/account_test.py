@@ -1,5 +1,5 @@
 import unittest
-from bank.account import Account
+from account import Account
 
 class TestAccount(unittest.TestCase):
   def test_account_object_can_be_created(self):
@@ -9,4 +9,4 @@ class TestAccount(unittest.TestCase):
 
 
 if __name__ == '__main__':
-  unittest.main()
+  unittest.main(debug=True)
