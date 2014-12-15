@@ -14,7 +14,8 @@ def hello_world():
     return render_template('index.html', balance=balance)
 
 if __name__ == '__main__':
+    import cProfile
 
     ACCOUNT = Account('1111', 50)
     BANK.add_account(ACCOUNT)
-    APP.run(debug=True)
+    cProfile.run('APP.run(debug=True)')
